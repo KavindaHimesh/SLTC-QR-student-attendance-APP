@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.blackhats">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Blackhats">
+        <activity android:name=".testqr"></activity>
+        <activity android:name=".MainprofileActivity" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".AboutusActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".MoneyActivity" />
+        <activity android:name=".IssueActivity" />
+        <activity android:name=".AttendanceActivity" />
+        <activity android:name=".CovidActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Skip4Activity" />
+        <activity android:name=".Skip3Activity" />
+        <activity android:name=".Skip2Activity" />
+        <activity android:name=".Skip1Activity" />
+        <activity android:name=".LetsActivity" />
+        <activity android:name=".lghelpActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

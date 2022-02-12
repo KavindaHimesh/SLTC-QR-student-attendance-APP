@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "696484302295",
+    "project_id": "blackhats-41e29",
+    "storage_bucket": "blackhats-41e29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696484302295:android:b097687b9e32cd88510f92",
+        "android_client_info": {
+          "package_name": "com.example.blackhats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696484302295-8eufk7vulc68oc42bcrjm4gckl2nl3mq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBSy_wnLw5peZMV1qyOotCM6FPWeYPkAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696484302295-8eufk7vulc68oc42bcrjm4gckl2nl3mq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

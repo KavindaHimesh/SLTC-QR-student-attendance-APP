@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/dddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/navbarr"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+
+    <Button
+        android:id="@+id/buttoncorona1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/menurec"
+        android:fontFamily="@font/regular"
+        android:text="Attack to COVID-19"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dddd" />
+
+    <Button
+        android:id="@+id/buttoncorona2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menurec"
+        android:fontFamily="@font/regular"
+        android:text="My heat profile"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncorona0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttoncorona5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="108dp"
+        android:background="@drawable/menurec"
+        android:fontFamily="@font/regular"
+        android:text="Money tracker"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncorona3" />
+
+    <Button
+        android:id="@+id/buttoncorona7"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/menurec"
+        android:fontFamily="@font/regular"
+        android:text="Notification"
+        android:textAlignment="textEnd"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncorona6" />
+
+    <Button
+        android:id="@+id/buttoncorona0"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menurecw"
+        android:fontFamily="@font/regular"
+        android:text="Mark attendance"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncorona1" />
+
+    <Button
+        android:id="@+id/buttoncorona3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menurecw"
+        android:fontFamily="@font/regular"
+        android:text="Student issue"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncorona2" />
+
+    <Button
+        android:id="@+id/buttoncorona6"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menurecw"
+        android:fontFamily="@font/regular"
+        android:text="My profile"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncorona5" />
+
+    <Button
+        android:id="@+id/buttoncorona9"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/menurecw"
+        android:fontFamily="@font/regular"
+        android:text="About us"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncorona7"
+        app:layout_constraintVertical_bias="0.009" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoncorona1"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncorona1"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="@+id/buttoncorona1"
+        app:layout_constraintTop_toTopOf="@+id/buttoncorona1"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/coronavirus" />
+
+    <ImageView
+        android:id="@+id/imageNotify"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoncorona0"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncorona0"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="@+id/buttoncorona0"
+        app:layout_constraintTop_toTopOf="@+id/buttoncorona0"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/qr_code" />
+
+
+    <ImageView
+        android:id="@+id/imageHeat"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoncorona2"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncorona2"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="@+id/buttoncorona2"
+        app:layout_constraintTop_toTopOf="@+id/buttoncorona2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/temperature" />
+
+    <ImageView
+        android:id="@+id/imageAbout"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoncorona3"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncorona3"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="@+id/buttoncorona3"
+        app:layout_constraintTop_toTopOf="@+id/buttoncorona3"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/issue" />
+
+    <ImageView
+        android:id="@+id/imageMo"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoncorona5"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncorona5"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="@+id/buttoncorona5"
+        app:layout_constraintTop_toTopOf="@+id/buttoncorona5"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/wallet" />
+
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoncorona6"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncorona6"
+        app:layout_constraintHorizontal_bias="0.938"
+        app:layout_constraintStart_toStartOf="@+id/buttoncorona6"
+        app:layout_constraintTop_toTopOf="@+id/buttoncorona6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/profile" />
+
+    <ImageView
+        android:id="@+id/imageNoti"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoncorona7"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncorona7"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="@+id/buttoncorona7"
+        app:layout_constraintTop_toTopOf="@+id/buttoncorona7"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/notification_new" />
+
+    <ImageView
+        android:id="@+id/imageUs"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/buttoncorona9"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncorona9"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="@+id/buttoncorona9"
+        app:layout_constraintTop_toTopOf="@+id/buttoncorona9"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/about_variant"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
